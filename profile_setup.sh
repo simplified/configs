@@ -27,4 +27,4 @@ alias ll='ls -l'
 #
 mkdir -p ~/bin --mode=770
 chmod 770 ~/bin
-PATH=\$PATH:~/bin
+PATH=$PATH:~/bin
