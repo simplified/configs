@@ -11,15 +11,6 @@ curl https://github.com/simplified.keys >> ~/.ssh/authorized_keys
 #
 curl https://raw.githubusercontent.com/simplified/configs/main/.vimrc > ~/.vimrc
 #
-# Git configuration
-#
-read -p "Enter your name [Ollie Sheridan]: " NAME
-NAME=${NAME:-Ollie Sheridan}
-read -p "Enter your email : " EMAIL
-git config --global user.name $NAME
-git config --global user.email $EMAIL
-git config --global credential.helper store
-#
 # Set up alias'
 #
 echo "alias cls='clear ; ls -l'
