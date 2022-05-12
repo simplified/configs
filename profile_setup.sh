@@ -1,11 +1,11 @@
 #
 # SSH Configuration
 #
-mkdir ~/.ssh
+mkdir -p ~/.ssh --mode=700
 chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
-curl https://github.com/simplified.keys >> ~/.ssh/authorized_keys
+curl https://github.com/simplified.keys > ~/.ssh/authorized_keys
 #
 # Vim Configuration
 #
@@ -25,4 +25,5 @@ alias ll='ls -l'
 #
 # Customised path additions
 #
+mkdir -p ~/bin --mode=700
 PATH=\$PATH:~/bin
