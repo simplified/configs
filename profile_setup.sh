@@ -61,7 +61,9 @@ h1sbEj81/Z3e+kxv4Iw6e7l3YP5nMGFmCuWC6uHRqP9clto1vsDjiA==
 #
 # Set up alias'
 #
-alias cls='clear ; ls -l'
+echo "alias cls='clear ; ls -l'
 alias cgs='clear ; git status'
 alias cdp='clear ; docker ps -a'
 alias ct='clear ; tree'
+" > ~/.bash_aliases
+
