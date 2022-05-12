@@ -73,6 +73,6 @@ alias la='ls -A'
 alias ll='ls -l'
 
 # Customised path additions
-PATH=$PATH:~/bin
+PATH=\$PATH:~/bin
 " > ~/.bash_aliases
 
