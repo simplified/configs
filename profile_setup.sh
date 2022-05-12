@@ -21,7 +21,7 @@ alias gs='git status'
 alias l='ls -l'
 alias la='ls -A'
 alias ll='ls -l'
-"
+" > ~/.bash_aliases
 #
 # Customised path additions
 #
